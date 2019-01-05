@@ -1,0 +1,12 @@
+#output{
+	height: 100px;
+	width: 200px;
+	background-color: green;
+	transition: all 0.5s ease;
+}
+
+#output_text {
+	border: 1px solid grey;
+	display: none;
+	padding: 15px;
+}

@@ -19,12 +19,30 @@
 <body>
 
   <div class="container">
-    <div class="row mt-5">
-      <div class="col md-6 d-flex justify-content-center" style="background-color: #fafafa">Testing the git</div>
-      <div class="col-md-6 d-flex justify-content-center" style="background-color:bisque;">
-        <h4 class="h4">Here comes an awesome text</h4>
-      </div>
-    </div>
+
+    <p>Top left</p>
+    <input type="range" oninput="edit()" class="mx-3" id="top-left-r" max="100" min="0" value="0">
+    <input type="text" id="top-left">
+
+
+    <p>Top right</p>
+    <input type="range" oninput="edit()" class="mx-3" id="top-right-r" max="100" min="0" value="0">
+    <input type="text" id="top-right">
+
+
+    <p>Bottom left</p>
+    <input type="range" oninput="edit()" class="mx-3" id="bottom-left-r" max="100" min="0" value="0">
+    <input type="text" id="bottom-left">
+
+
+    <p>Bottom right</p>
+    <input type="range" oninput="edit()" class="mx-3" id="bottom-right-r" max="100" min="0" value="0">
+    <input type="text" id="bottom-right">
+
+
+    <div class="mt-4" id="output"></div>
+
+    <p class="mt-4" id="output_text"></p>
   </div>
 
   <!-- SCRIPTS -->
